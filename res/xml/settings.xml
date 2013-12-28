@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Anti-Spam">
+        <EditTextPreference android:summary="Not set (default: blank)" android:dialogTitle="Secret Answer" android:title="Checkpoint Answer" android:key="checkpoint"/>
+        <ListPreference android:dialogTitle="Set wait queue duration" android:key="wait_queue" android:summary="Default: 2 minutes and 30 seconds" android:title="Set wait queue duration" android:entryValues="@array/wait_queue_values" android:entries="@array/wait_queue_label"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
